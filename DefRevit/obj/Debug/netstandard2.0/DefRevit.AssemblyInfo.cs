@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DefRevit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6be6ef91154e3cb392c126bdd905f1cf11e41349")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d3802f927ef5d3bff206fbc9c20a261539be5a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DefRevit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DefRevit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

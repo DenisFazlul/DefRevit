@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3g2mLUWHo7Ll01NOOfjKGravg7ps7hJsNsqjuFdTAyTHafVAsfwYfyYUHQ+JzeOzy/8eHWS91fjm+tIohS7jIg==",
+  "dgSpecHash": "5yeR3tcCKqGcZCoV7697SLnNigiI8oe2xhhmZE+Ke3MpPzuVGiF8LxpJJ9Md3wwtXICHDjqqozsRC+L7Z3gZTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fazlul.DB\\source\\repos\\DefRevit\\DefRevit\\DefRevit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fazlul.DB\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Fazlul.DB\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Fazlul.DB\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Fazlul.DB\\.nuget\\packages\\system.drawing.common\\8.0.4\\system.drawing.common.8.0.4.nupkg.sha512"
   ],
   "logs": []
 }

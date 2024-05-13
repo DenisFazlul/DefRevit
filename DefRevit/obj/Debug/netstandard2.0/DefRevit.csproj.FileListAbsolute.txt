@@ -1,0 +1,14 @@
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\bin\Debug\netstandard2.0\DefRevit.deps.json
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\bin\Debug\netstandard2.0\DefRevit.dll
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\bin\Debug\netstandard2.0\DefRevit.pdb
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\bin\Debug\netstandard2.0\RevitAPI.dll
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\bin\Debug\netstandard2.0\RevitAPIUI.dll
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\obj\Debug\netstandard2.0\DefRevit.csproj.AssemblyReference.cache
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\obj\Debug\netstandard2.0\DefRevit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\obj\Debug\netstandard2.0\DefRevit.AssemblyInfoInputs.cache
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\obj\Debug\netstandard2.0\DefRevit.AssemblyInfo.cs
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\obj\Debug\netstandard2.0\DefRevit.csproj.CoreCompileInputs.cache
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\obj\Debug\netstandard2.0\DefRevit.sourcelink.json
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\obj\Debug\netstandard2.0\DefRevit.csproj.Up2Date
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\obj\Debug\netstandard2.0\DefRevit.dll
+C:\Users\Fazlul.DB\source\repos\DefRevit\DefRevit\obj\Debug\netstandard2.0\DefRevit.pdb
