@@ -26,6 +26,64 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "RevitAPI-2019-x64-Base/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net470/AdWindows.dll": {},
+          "lib/net470/RevitAPI.dll": {
+            "related": ".xml"
+          },
+          "lib/net470/RevitAPIBrowserUtils.dll": {
+            "related": ".xml"
+          },
+          "lib/net470/RevitAPIFoundation.dll": {},
+          "lib/net470/RevitAPIIFC.dll": {
+            "related": ".xml"
+          },
+          "lib/net470/RevitAPILink.dll": {},
+          "lib/net470/RevitAPIMacros.dll": {},
+          "lib/net470/RevitAPIMacrosInterop.dll": {},
+          "lib/net470/RevitAPIMacrosInteropAPI.dll": {},
+          "lib/net470/RevitAPISteel.dll": {},
+          "lib/net470/RevitAPIUI.dll": {
+            "related": ".xml"
+          },
+          "lib/net470/RevitAPIUILink.dll": {},
+          "lib/net470/RevitAPIUIMacros.dll": {},
+          "lib/net470/RevitAPIUIMacrosInterop.dll": {},
+          "lib/net470/RevitAPIUIMacrosInteropAPI.dll": {},
+          "lib/net470/RevitAddInUtility.dll": {}
+        },
+        "runtime": {
+          "lib/net470/AdWindows.dll": {},
+          "lib/net470/RevitAPI.dll": {
+            "related": ".xml"
+          },
+          "lib/net470/RevitAPIBrowserUtils.dll": {
+            "related": ".xml"
+          },
+          "lib/net470/RevitAPIFoundation.dll": {},
+          "lib/net470/RevitAPIIFC.dll": {
+            "related": ".xml"
+          },
+          "lib/net470/RevitAPILink.dll": {},
+          "lib/net470/RevitAPIMacros.dll": {},
+          "lib/net470/RevitAPIMacrosInterop.dll": {},
+          "lib/net470/RevitAPIMacrosInteropAPI.dll": {},
+          "lib/net470/RevitAPISteel.dll": {},
+          "lib/net470/RevitAPIUI.dll": {
+            "related": ".xml"
+          },
+          "lib/net470/RevitAPIUILink.dll": {},
+          "lib/net470/RevitAPIUIMacros.dll": {},
+          "lib/net470/RevitAPIUIMacrosInterop.dll": {},
+          "lib/net470/RevitAPIUIMacrosInteropAPI.dll": {},
+          "lib/net470/RevitAddInUtility.dll": {}
+        }
+      },
+      "RevitAPI.2019/19.0.0.495": {
+        "type": "package"
+      },
       "System.Drawing.Common/8.0.4": {
         "type": "package",
         "compile": {
@@ -186,6 +244,54 @@
         "netstandard.library.nuspec"
       ]
     },
+    "RevitAPI-2019-x64-Base/1.0.0": {
+      "sha512": "zg4AN97tSieSqsAM7SjOMfTNG8vRJ3AGGYNwEbc1LWf2aJI9kE26s7pcrDfwj/bnf+6CWPjxdQOvmww6bFa7gA==",
+      "type": "package",
+      "path": "revitapi-2019-x64-base/1.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.txt",
+        "lib/net470/AdWindows.dll",
+        "lib/net470/RevitAPI.dll",
+        "lib/net470/RevitAPI.xml",
+        "lib/net470/RevitAPIBrowserUtils.dll",
+        "lib/net470/RevitAPIBrowserUtils.xml",
+        "lib/net470/RevitAPIFoundation.dll",
+        "lib/net470/RevitAPIIFC.dll",
+        "lib/net470/RevitAPIIFC.xml",
+        "lib/net470/RevitAPILink.dll",
+        "lib/net470/RevitAPIMacros.dll",
+        "lib/net470/RevitAPIMacrosInterop.dll",
+        "lib/net470/RevitAPIMacrosInteropAPI.dll",
+        "lib/net470/RevitAPISteel.dll",
+        "lib/net470/RevitAPIUI.dll",
+        "lib/net470/RevitAPIUI.xml",
+        "lib/net470/RevitAPIUILink.dll",
+        "lib/net470/RevitAPIUIMacros.dll",
+        "lib/net470/RevitAPIUIMacrosInterop.dll",
+        "lib/net470/RevitAPIUIMacrosInteropAPI.dll",
+        "lib/net470/RevitAddInUtility.dll",
+        "revitapi-2019-x64-base.1.0.0.nupkg.sha512",
+        "revitapi-2019-x64-base.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "RevitAPI.2019/19.0.0.495": {
+      "sha512": "Czu2f8fp055pVcYggT+aPtwKQvvxYPSR8F7QyBLsime281WZv/dfUQbikSiJ3z3e3ESNywUfoCe508eHgy/2nQ==",
+      "type": "package",
+      "path": "revitapi.2019/19.0.0.495",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AdWindows.dll",
+        "RevitAPI.dll",
+        "RevitAPIUI.dll",
+        "revitapi.2019.19.0.0.495.nupkg.sha512",
+        "revitapi.2019.nuspec"
+      ]
+    },
     "System.Drawing.Common/8.0.4": {
       "sha512": "3G4xpa8mUYGzEF0HlswlBArAFywHJIzsZoB5hU4yMlnYHaabj/lg019BwbyyYBxj0aoM7Cz+jdlgUemeno9LOQ==",
       "type": "package",
@@ -230,36 +336,32 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "RevitAPI-2019-x64-Base >= 1.0.0",
+      "RevitAPI.2019 >= 19.0.0.495",
       "System.Drawing.Common >= 8.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fazlul.DB\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/denisfazlul/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fazlul.DB\\source\\repos\\DefRevit\\DefRevit\\DefRevit.csproj",
+      "projectUniqueName": "/Users/denisfazlul/RiderProjects/DefRevit/DefRevit/DefRevit.csproj",
       "projectName": "DefRevit",
-      "projectPath": "C:\\Users\\Fazlul.DB\\source\\repos\\DefRevit\\DefRevit\\DefRevit.csproj",
-      "packagesPath": "C:\\Users\\Fazlul.DB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fazlul.DB\\source\\repos\\DefRevit\\DefRevit\\obj\\",
+      "projectPath": "/Users/denisfazlul/RiderProjects/DefRevit/DefRevit/DefRevit.csproj",
+      "packagesPath": "/Users/denisfazlul/.nuget/packages/",
+      "outputPath": "/Users/denisfazlul/RiderProjects/DefRevit/DefRevit/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Fazlul.DB\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/denisfazlul/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gitlab.bork.ru/api/v4/groups/1172/-/packages/nuget/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
@@ -271,11 +373,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -287,6 +384,14 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "RevitAPI-2019-x64-Base": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "RevitAPI.2019": {
+            "target": "Package",
+            "version": "[19.0.0.495, )"
           },
           "System.Drawing.Common": {
             "target": "Package",
@@ -304,8 +409,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RevitAPI-2019-x64-Base 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "RevitAPI-2019-x64-Base",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

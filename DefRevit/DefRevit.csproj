@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="RevitAPI-2019-x64-Base" Version="1.0.0" />
+    <PackageReference Include="RevitAPI.2019" Version="19.0.0.495" />
     <PackageReference Include="System.Drawing.Common" Version="8.0.4" />
   </ItemGroup>
 

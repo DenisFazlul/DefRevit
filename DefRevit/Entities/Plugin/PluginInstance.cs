@@ -13,6 +13,7 @@ namespace DefRevit.Entities.Plugin
         public LogService Logs { get; private set; } = new LogService(); 
         public PluginInstance(ExternalCommandData commandData)
         {
+            
             RevitData = new RevitData(commandData);
             ProjectInfo = new ProjectInfo(RevitData.doc);
             Logs.Add(new Log("Init plugin instance", LogLevel.Info));

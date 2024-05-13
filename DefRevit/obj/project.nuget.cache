@@ -1,12 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "5yeR3tcCKqGcZCoV7697SLnNigiI8oe2xhhmZE+Ke3MpPzuVGiF8LxpJJ9Md3wwtXICHDjqqozsRC+L7Z3gZTA==",
+  "dgSpecHash": "kbAQLdDTEx73Z3k/oivMPUIRDVFvuxHo5Dl57GBDCLqKqSGsEATvQkzHrBexEDK4VjKaM4Z8UHwEiyUZhZPbng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fazlul.DB\\source\\repos\\DefRevit\\DefRevit\\DefRevit.csproj",
+  "projectFilePath": "/Users/denisfazlul/RiderProjects/DefRevit/DefRevit/DefRevit.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Fazlul.DB\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Fazlul.DB\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Fazlul.DB\\.nuget\\packages\\system.drawing.common\\8.0.4\\system.drawing.common.8.0.4.nupkg.sha512"
+    "/Users/denisfazlul/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/denisfazlul/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/denisfazlul/.nuget/packages/revitapi-2019-x64-base/1.0.0/revitapi-2019-x64-base.1.0.0.nupkg.sha512",
+    "/Users/denisfazlul/.nuget/packages/revitapi.2019/19.0.0.495/revitapi.2019.19.0.0.495.nupkg.sha512",
+    "/Users/denisfazlul/.nuget/packages/system.drawing.common/8.0.4/system.drawing.common.8.0.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RevitAPI-2019-x64-Base 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "RevitAPI-2019-x64-Base",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }
