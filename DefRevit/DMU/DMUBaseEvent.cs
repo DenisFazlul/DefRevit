@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 
@@ -16,20 +15,31 @@ namespace DefRevit.DMU
         public ElementFilter Filter;
         public List<ChangeType> ChangeType;
         public bool IsRunning = true;
+        public delegate void OnExacute(UpdaterData data);
+
+        public event OnExacute OnExecute;
         public DmuBaseEvent(UIControlledApplication a,List<Type> types,List<ChangeType> changeType)
         {
             ChangeType = changeType;
            _addInId= a.ActiveAddInId;
-            
+         
            _guid = Guid.NewGuid();
            _uid = new UpdaterId(_addInId,_guid);
             Filter = new ElementMulticlassFilter(types);
         }
         public void Execute(UpdaterData data)
         {
+           
+            
             if (IsRunning == false)
             {
+                 
+                 
                 return;
+            }
+            if (this.OnExecute != null)
+            {
+                this.OnExecute.Invoke(data);
             }
             
         }
